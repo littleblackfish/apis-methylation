@@ -1,6 +1,6 @@
-This repository documents code used to re-analyse WGBS data from the honey bee (*Apis mellifera*) and some other Hymenopteran insects.
-It exists primarily for reproducibility purposes.
-While it is not polished for public use, it may provide some useful components for re-use.
+This repository documents code used to re-analyse WGBS data from the honey bee (*Apis mellifera*) and some other insects.
+It exists primarily for reproducibility purposes;
+while it is not polished for public use, it may provide some useful components for re-use.
 Indeed, the structure herein was initially developed for a systematic review of DNA methylation patterns in the honey bee, then re-used to expand analysis into 5 more Hymenopterans, namely:
   * *Bombus terrestris* (buff-tailed bumblebee)
   * *Nasonia vitripennis* (jewel wasp)
