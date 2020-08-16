@@ -22,3 +22,5 @@ A number of [scripts](scripts/) exist to aid in heavy lifting. Mainly:
   * [significant.py](scripts/significant.py) filters those matrices for a minimum coverage and significant methylation (against null of incomplete bisulfite conversion)
 
 **Secondary analysis** is then contained in [notebooks](notebooks/).
+
+A complete, although not minimal [conda environment](environment.yml) that supports the entirety of analysis is provided.
