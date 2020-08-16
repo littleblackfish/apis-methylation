@@ -1,0 +1,771 @@
+{
+    "organism":"Apis mellifera",
+    "genome": {
+        "name": "Amel_HAv3.1",
+        "accession":"GCF_003254395.2",
+        "ncbi": "https://www.ncbi.nlm.nih.gov/genome/48?genome_assembly_id=403979",
+        "url": "ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/003/254/395/GCF_003254395.2_Amel_HAv3.1/",
+        "basename":"GCF_003254395.2_Amel_HAv3.1_genomic",
+        "fna":"GCF_003254395.2_Amel_HAv3.1_genomic.fna.gz",
+        "gff":"GCF_003254395.2_Amel_HAv3.1_genomic.gff.gz"
+    },
+    "experiments": [
+        {
+            "author": "Feng",
+            "doi": "10.1073/pnas.1002720107",
+            "samples": [
+                {
+                    "caste": "drone",
+                    "tissue": "whole",
+                    "devel": "immature",
+                    "other": "",
+                    "layout": "single",
+                    "accession": [
+                        [
+                            "SRR039327",
+                            "SRR039328"
+                        ]
+                    ],
+                    "id": "052d"
+                }
+            ],
+            "id": "2f83"
+        },
+        {
+            "author": "Zemach",
+            "doi": "10.1126/science.1186366",
+            "samples": [
+                {
+                    "caste": "worker",
+                    "tissue": "whole",
+                    "devel": "adult",
+                    "other": "",
+                    "layout": "paired",
+                    "accession": [
+                        [
+                            "SRR042617",
+                            "SRR042618",
+                            "SRR042619",
+                            "SRR042620"
+                        ]
+                    ],
+                    "id": "f700"
+                }
+            ],
+            "id": "e69b"
+        },
+        {
+            "author": "Lyko",
+            "doi": "10.1371/journal.pbio.1000506",
+            "samples": [
+                {
+                    "caste": "queen",
+                    "tissue": "brain",
+                    "devel": "adult",
+                    "other": "",
+                    "layout": "paired",
+                    "accession": [
+                        [
+                            "SRR039815"
+                        ]
+                    ],
+                    "id": "e826"
+                },
+                {
+                    "caste": "worker",
+                    "tissue": "brain",
+                    "devel": "adult",
+                    "other": "",
+                    "layout": "paired",
+                    "accession": [
+                        [
+                            "SRR039814"
+                        ]
+                    ],
+                    "id": "3bd8"
+                }
+            ],
+            "id": "ef3f"
+        },
+        {
+            "author": "Foret",
+            "doi": "10.1073/pnas.1202392109",
+            "samples": [
+                {
+                    "caste": "queen",
+                    "tissue": "head",
+                    "devel": "larvae",
+                    "other": "",
+                    "layout": "single",
+                    "accession": [
+                        [
+                            "SRR353494",
+                            "SRR353496"
+                        ]
+                    ],
+                    "id": "cea1"
+                },
+                {
+                    "caste": "worker",
+                    "tissue": "head",
+                    "devel": "larvae",
+                    "other": "",
+                    "layout": "single",
+                    "accession": [
+                        [
+                            "SRR353497",
+                            "SRR353498"
+                        ]
+                    ],
+                    "id": "5b43"
+                }
+            ],
+            "id": "ec75"
+        },
+        {
+            "author": "Herb2012",
+            "doi": "10.1038/nn.3218",
+            "samples": [
+                {
+                    "caste": "queen",
+                    "tissue": "brain",
+                    "devel": "adult",
+                    "other": "",
+                    "layout": "paired",
+                    "accession": [
+                        [
+                            "SRR445800"
+                        ],
+                        [
+                            "SRR445801"
+                        ],
+                        [
+                            "SRR445802"
+                        ],
+                        [
+                            "SRR445803"
+                        ],
+                        [
+                            "SRR445804"
+                        ]
+                    ],
+                    "id": "c544"
+                },
+                {
+                    "caste": "worker",
+                    "tissue": "brain",
+                    "devel": "adult",
+                    "other": "forager",
+                    "layout": "paired",
+                    "accession": [
+                        [
+                            "SRR445773"
+                        ],
+                        [
+                            "SRR445771"
+                        ],
+                        [
+                            "SRR445770"
+                        ],
+                        [
+                            "SRR445769"
+                        ],
+                        [
+                            "SRR445768"
+                        ],
+                        [
+                            "SRR445767"
+                        ]
+                    ],
+                    "id": "0663"
+                },
+                {
+                    "caste": "worker",
+                    "tissue": "brain",
+                    "devel": "adult",
+                    "other": "reverted_nurse",
+                    "layout": "paired",
+                    "accession": [
+                        [
+                            "SRR445799"
+                        ],
+                        [
+                            "SRR445778"
+                        ],
+                        [
+                            "SRR445777"
+                        ],
+                        [
+                            "SRR445776"
+                        ],
+                        [
+                            "SRR445775"
+                        ],
+                        [
+                            "SRR445774"
+                        ]
+                    ],
+                    "id": "1e6b"
+                },
+                {
+                    "caste": "worker",
+                    "tissue": "brain",
+                    "devel": "adult",
+                    "other": "nurse",
+                    "layout": "paired",
+                    "accession": [
+                        [
+                            "SRR445809"
+                        ],
+                        [
+                            "SRR445808"
+                        ],
+                        [
+                            "SRR445807"
+                        ],
+                        [
+                            "SRR445806"
+                        ],
+                        [
+                            "SRR445805"
+                        ]
+                    ],
+                    "id": "1040"
+                }
+            ],
+            "id": "8125"
+        },
+        {
+            "author": "Li-Byarlay",
+            "doi": "10.1073/pnas.1310735110",
+            "samples": [
+                {
+                    "caste": "worker",
+                    "tissue": "abdominal",
+                    "devel": "adult",
+                    "other": "control",
+                    "layout": "single",
+                    "accession": [
+                        [
+                            "SRR1270128"
+                        ]
+                    ],
+                    "id": "8d82"
+                },
+                {
+                    "caste": "worker",
+                    "tissue": "abdominal",
+                    "devel": "adult",
+                    "other": "knockdown",
+                    "layout": "single",
+                    "accession": [
+                        [
+                            "SRR1270129"
+                        ]
+                    ],
+                    "id": "c8e3"
+                }
+            ],
+            "id": "7b82"
+        },
+        {
+            "author": "Cingolani",
+            "doi": "10.1186/1471-2164-14-666",
+            "samples": [
+                {
+                    "caste": "worker",
+                    "tissue": "head",
+                    "devel": "adult",
+                    "other": "european",
+                    "layout": "single",
+                    "accession": [
+                        [
+                            "SRR989671"
+                        ]
+                    ],
+                    "id": "0075"
+                },
+                {
+                    "caste": "worker",
+                    "tissue": "head",
+                    "devel": "adult",
+                    "other": "africanized",
+                    "layout": "single",
+                    "accession": [
+                        [
+                            "SRR989670"
+                        ]
+                    ],
+                    "id": "a83f"
+                }
+            ],
+            "id": "1d20"
+        },
+        {
+            "author": "Drewell",
+            "doi": "10.1242/dev.110163",
+            "samples": [
+                {
+                    "caste": "drone",
+                    "tissue": "thorax",
+                    "devel": "adult",
+                    "other": "",
+                    "layout": "paired",
+                    "accession": [
+                        [
+                            "SRR9316836"
+                        ]
+                    ],
+                    "id": "5ad1"
+                },
+                {
+                    "caste": "",
+                    "tissue": "egg",
+                    "devel": "gamete",
+                    "other": "haploid",
+                    "layout": "paired",
+                    "accession": [
+                        [
+                            "SRR9316837"
+                        ]
+                    ],
+                    "id": "a7f6"
+                },
+                {
+                    "caste": "",
+                    "tissue": "sperm",
+                    "devel": "gamete",
+                    "other": "",
+                    "layout": "paired",
+                    "accession": [
+                        [
+                            "SRR9316838"
+                        ]
+                    ],
+                    "id": "cde3"
+                }
+            ],
+            "id": "e21c"
+        },
+        {
+            "author": "Galbraith",
+            "doi": "10.1371/journal.ppat.1004713",
+            "samples": [
+                {
+                    "caste": "worker",
+                    "tissue": "abdominal",
+                    "devel": "adult",
+                    "other": "control",
+                    "layout": "paired",
+                    "accession": [
+                        [
+                            "SRR1790690",
+                            "SRR1790691"
+                        ]
+                    ],
+                    "id": "c8c5"
+                },
+                {
+                    "caste": "worker",
+                    "tissue": "abdominal",
+                    "devel": "adult",
+                    "other": "infected",
+                    "layout": "paired",
+                    "accession": [
+                        [
+                            "SRR1790688",
+                            "SRR1790689"
+                        ]
+                    ],
+                    "id": "7d75"
+                }
+            ],
+            "id": "5de5"
+        },
+        {
+            "author": "Remnant",
+            "doi": "10.1186/s12864-016-2506-8",
+            "samples": [
+                {
+                    "caste": "",
+                    "tissue": "whole",
+                    "devel": "embryo",
+                    "other": "fertilized",
+                    "layout": "paired",
+                    "accession": [
+                        [
+                            "SRR1994693"
+                        ]
+                    ],
+                    "id": "113b"
+                },
+                {
+                    "caste": "",
+                    "tissue": "whole",
+                    "devel": "embryo",
+                    "other": "thelytokous",
+                    "layout": "paired",
+                    "accession": [
+                        [
+                            "SRR1994694"
+                        ]
+                    ],
+                    "id": "2cc0"
+                }
+            ],
+            "id": "bdae"
+        },
+        {
+            "author": "Li",
+            "doi": "10.1038/s41598-017-17046-1",
+            "samples": [
+                {
+                    "caste": "worker",
+                    "tissue": "brain",
+                    "devel": "adult",
+                    "other": "control",
+                    "layout": "paired",
+                    "accession": [
+                        [
+                            "SRR5312519"
+                        ]
+                    ],
+                    "id": "8ca0"
+                },
+                {
+                    "caste": "worker",
+                    "tissue": "brain",
+                    "devel": "adult",
+                    "other": "trained",
+                    "layout": "paired",
+                    "accession": [
+                        [
+                            "SRR5295651"
+                        ]
+                    ],
+                    "id": "e2d1"
+                }
+            ],
+            "id": "fefa"
+        },
+        {
+            "author": "Herb2018",
+            "doi": "10.1186/s12864-018-4594-0",
+            "samples": [
+                {
+                    "caste": "worker",
+                    "tissue": "brain",
+                    "devel": "adult",
+                    "other": "A_120min",
+                    "layout": "paired",
+                    "accession": [
+                        [
+                            "SRR6175588"
+                        ],
+                        [
+                            "SRR6175587"
+                        ],
+                        [
+                            "SRR6175586"
+                        ],
+                        [
+                            "SRR6175585"
+                        ],
+                        [
+                            "SRR6175584"
+                        ],
+                        [
+                            "SRR6175583"
+                        ]
+                    ],
+                    "id": "9598"
+                },
+                {
+                    "caste": "worker",
+                    "tissue": "brain",
+                    "devel": "adult",
+                    "other": "C_120min",
+                    "layout": "paired",
+                    "accession": [
+                        [
+                            "SRR6175582"
+                        ],
+                        [
+                            "SRR6175581"
+                        ],
+                        [
+                            "SRR6175580"
+                        ],
+                        [
+                            "SRR6175579"
+                        ],
+                        [
+                            "SRR6175578"
+                        ],
+                        [
+                            "SRR6175577"
+                        ]
+                    ],
+                    "id": "9bee"
+                },
+                {
+                    "caste": "worker",
+                    "tissue": "brain",
+                    "devel": "adult",
+                    "other": "A_5min",
+                    "layout": "paired",
+                    "accession": [
+                        [
+                            "SRR6175576"
+                        ],
+                        [
+                            "SRR6175575"
+                        ],
+                        [
+                            "SRR6175574"
+                        ],
+                        [
+                            "SRR6175573"
+                        ],
+                        [
+                            "SRR6175572"
+                        ],
+                        [
+                            "SRR6175571"
+                        ]
+                    ],
+                    "id": "701a"
+                },
+                {
+                    "caste": "worker",
+                    "tissue": "brain",
+                    "devel": "adult",
+                    "other": "C_5min",
+                    "layout": "paired",
+                    "accession": [
+                        [
+                            "SRR6175570"
+                        ],
+                        [
+                            "SRR6175569"
+                        ],
+                        [
+                            "SRR6175568"
+                        ],
+                        [
+                            "SRR6175567"
+                        ],
+                        [
+                            "SRR6175566"
+                        ],
+                        [
+                            "SRR6175565"
+                        ]
+                    ],
+                    "id": "9d94"
+                }
+            ],
+            "id": "3a7a"
+        },
+        {
+            "author": "Harris",
+            "doi": "10.1186/s13072-019-0307-4",
+            "samples": [
+                {
+                    "caste": "",
+                    "tissue": "sperm",
+                    "devel": "gamete",
+                    "other": "",
+                    "layout": "single",
+                    "accession": [
+                        [
+                            "SRR7472329",
+                            "SRR7472330"
+                        ]
+                    ],
+                    "id": "1915"
+                },
+                {
+                    "caste": "",
+                    "tissue": "sperm",
+                    "devel": "gamete",
+                    "other": "",
+                    "layout": "paired",
+                    "accession": [
+                        [
+                            "SRR9077639"
+                        ]
+                    ],
+                    "id": "9683"
+                },
+                {
+                    "caste": "drone",
+                    "tissue": "",
+                    "devel": "larva",
+                    "other": "",
+                    "layout": "single",
+                    "accession": [
+                        [
+                            "SRR7472348"
+                        ],
+                        [
+                            "SRR7472339",
+                            "SRR7472340",
+                            "SRR7472341"
+                        ]
+                    ],
+                    "id": "017d"
+                },
+                {
+                    "caste": "drone",
+                    "tissue": "head",
+                    "devel": "adult",
+                    "other": "",
+                    "layout": "single",
+                    "accession": [
+                        [
+                            "SRR7472342"
+                        ],
+                        [
+                            "SRR7472349"
+                        ]
+                    ],
+                    "id": "8cf6"
+                },
+                {
+                    "caste": "worker",
+                    "tissue": "",
+                    "devel": "embryo",
+                    "other": "",
+                    "layout": "single",
+                    "accession": [
+                        [
+                            "SRR7472331",
+                            "SRR7472332"
+                        ],
+                        [
+                            "SRR7472344"
+                        ]
+                    ],
+                    "id": "ae00"
+                },
+                {
+                    "caste": "worker",
+                    "tissue": "",
+                    "devel": "larva",
+                    "other": "",
+                    "layout": "single",
+                    "accession": [
+                        [
+                            "SRR7472333",
+                            "SRR7472334"
+                        ],
+                        [
+                            "SRR7472345"
+                        ]
+                    ],
+                    "id": "1fa3"
+                },
+                {
+                    "caste": "worker",
+                    "tissue": "",
+                    "devel": "pupa",
+                    "other": "",
+                    "layout": "single",
+                    "accession": [
+                        [
+                            "SRR7472335",
+                            "SRR7472336"
+                        ],
+                        [
+                            "SRR7472346"
+                        ]
+                    ],
+                    "id": "588e"
+                },
+                {
+                    "caste": "worker",
+                    "tissue": "head",
+                    "devel": "adult",
+                    "other": "",
+                    "layout": "single",
+                    "accession": [
+                        [
+                            "SRR7472337",
+                            "SRR7472338"
+                        ],
+                        [
+                            "SRR7472347"
+                        ]
+                    ],
+                    "id": "163a"
+                },
+                {
+                    "caste": "queen",
+                    "tissue": "head",
+                    "devel": "adult",
+                    "other": "",
+                    "layout": "single",
+                    "accession": [
+                        [
+                            "SRR7472343"
+                        ],
+                        [
+                            "SRR7472350"
+                        ]
+                    ],
+                    "id": "d78d"
+                }
+            ],
+            "id": "1e1a"
+        },
+        {
+            "author": "Yagound",
+            "doi": "10.1093/gbe/evz177",
+            "samples": [
+                {
+                    "caste": "",
+                    "tissue": "sperm",
+                    "devel": "gamete",
+                    "other": "low coverage",
+                    "layout": "single",
+                    "accession": [
+                        [
+                            "SRR7780643"
+                        ],
+                        [
+                            "SRR7780644"
+                        ],
+                        [
+                            "SRR7780645"
+                        ]
+                    ],
+                    "id": "1cb7"
+                },
+                {
+                    "caste": "",
+                    "tissue": "sperm",
+                    "devel": "gamete",
+                    "other": "high coverage",
+                    "layout": "paired",
+                    "accession": [
+                        [
+                            "SRR8993055"
+                        ],
+                        [
+                            "SRR8993056"
+                        ],
+                        [
+                            "SRR8993057"
+                        ],
+                        [
+                            "SRR8993058"
+                        ]
+                    ],
+                    "id": "1491"
+                }
+            ],
+            "id": "7893"
+        }
+    ]
+}

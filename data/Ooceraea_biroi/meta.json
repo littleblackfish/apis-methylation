@@ -1,0 +1,85 @@
+{
+    "organism":"Ooceraea biroi",
+    "genome": {
+        "name": "Obir_v5.4",
+        "accession": "GCF_003672135.1",
+        "ncbi": "https://www.ncbi.nlm.nih.gov/genome/55526?genome_assembly_id=413370",
+        "url": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/003/672/135/GCF_003672135.1_Obir_v5.4/",
+        "basename": "GCF_003672135.1_Obir_v5.4_genomic",
+        "fna": "GCF_003672135.1_Obir_v5.4_genomic.fna.gz",
+        "gff": "GCF_003672135.1_Obir_v5.4_genomic.gff.gz"
+    },
+    "experiments": [
+        {
+            "author": "Libbrecht",
+            "doi": "10.1016/j.cub.2015.12.040",
+            "samples": [
+                {
+                    "caste": "reproductive",
+                    "tissue": "brain",
+                    "devel": "adult",
+                    "other": "line A",
+                    "layout": "paired",
+                    "accession": [
+                        [
+                            "SRR2977065"
+                        ],
+                        [
+                            "SRR2977182"
+                        ]
+                    ],
+                    "id": "c0c3"
+                },
+                {
+                    "caste": "reproductive",
+                    "tissue": "brain",
+                    "devel": "adult",
+                    "other": "line B",
+                    "layout": "paired",
+                    "accession": [
+                        [
+                            "SRR2976851"
+                        ],
+                        [
+                            "SRR2976858"
+                        ]
+                    ],
+                    "id": "95d6"
+                },
+                {
+                    "caste": "brood_care",
+                    "tissue": "brain",
+                    "devel": "adult",
+                    "other": "line A",
+                    "layout": "paired",
+                    "accession": [
+                        [
+                            "SRR2977064"
+                        ],
+                        [
+                            "SRR2977066"
+                        ]
+                    ],
+                    "id": "0701"
+                },
+                {
+                    "caste": "brood_care",
+                    "tissue": "brain",
+                    "devel": "adult",
+                    "other": "line B",
+                    "layout": "paired",
+                    "accession": [
+                        [
+                            "SRR2976847"
+                        ],
+                        [
+                            "SRR2976854"
+                        ]
+                    ],
+                    "id": "2da4"
+                }
+            ],
+            "id": "cd23"
+        }
+    ]
+}

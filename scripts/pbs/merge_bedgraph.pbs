@@ -1,0 +1,29 @@
+#!/bin/bash
+
+#####  Constructed by PBS Script Generator #####
+
+#PBS -l nodes=1:ppn=1,walltime=24:00:00
+#PBS -l vmem=120gb
+#PBS -j oe
+#PBS -N merge_bedgraph
+
+######  Module commands #####
+
+source activate apis
+
+######  Job commands go below this line #####
+
+#export HOME=$(realpath ~)
+
+ORGANISM=$1
+
+SCRIPTS="$HOME/scripts"
+
+mkdir -p $scratch/$ORGANISM/data
+cd $scratch/$ORGANISM/data
+
+python $SCRIPTS/merge_bedgraph.py ../$ORGANISM.json -g ~/genomes/$ORGANISM --prefix $scratch/$ORGANISM
+
+python $SCRIPTS/build_index.py -c covered.pkl -g ~/genomes/$ORGANISM/*_genomic.fna -gff ~/genomes/$ORGANISM/*_genomic.gff
+
+python $SCRIPTS/significant.py -m methylated.pkl  -c covered.pkl  --conversion_rate 0.995 --alpha 0.001 --min_covered 5  --correction_method fdr_by

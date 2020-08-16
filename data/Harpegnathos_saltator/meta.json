@@ -1,0 +1,164 @@
+{
+    "organism": "Harpegnathos saltator",
+    "genome": {
+        "name": "Hsal_v8.5",
+        "accession": "GCF_003227715.1",
+        "ncbi": "https://www.ncbi.nlm.nih.gov/genome/2965?genome_assembly_id=382179",
+        "url": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/003/227/715/GCF_003227715.1_Hsal_v8.5/",
+        "basename": "GCF_003227715.1_Hsal_v8.5_genomic"
+    },
+    "experiments": [
+        {
+            "author": "Bonasio",
+            "doi": "10.1016/j.cub.2012.07.042",
+            "samples": [
+                {
+                    "caste": "",
+                    "tissue": "",
+                    "devel": "larva",
+                    "other": "",
+                    "layout": "paired",
+                    "accession": [
+                        [
+                            "SRR333768",
+                            "SRR333769",
+                            "SRR333770"
+                        ],
+                        [
+                            "SRR333771",
+                            "SRR333772",
+                            "SRR333773"
+                        ]
+                    ],
+                    "id": "481d"
+                },
+                {
+                    "caste": "queen",
+                    "tissue": "",
+                    "devel": "adult",
+                    "other": "",
+                    "layout": "paired",
+                    "accession": [
+                        [
+                            "SRR333774",
+                            "SRR333775",
+                            "SRR333776"
+                        ],
+                        [
+                            "SRR333777",
+                            "SRR333778",
+                            "SRR333779"
+                        ]
+                    ],
+                    "id": "13a7"
+                },
+                {
+                    "caste": "queen",
+                    "tissue": "",
+                    "devel": "adult",
+                    "other": "virgin",
+                    "layout": "paired",
+                    "accession": [
+                        [
+                            "SRR333780",
+                            "SRR333781",
+                            "SRR333782",
+                            "SRR333783"
+                        ],
+                        [
+                            "SRR333784",
+                            "SRR333785"
+                        ]
+                    ],
+                    "id": "bde1"
+                },
+                {
+                    "caste": "",
+                    "tissue": "",
+                    "devel": "embryo",
+                    "other": "",
+                    "layout": "paired",
+                    "accession": [
+                        [
+                            "SRR333787",
+                            "SRR333788",
+                            "SRR333789",
+                            "SRR333790"
+                        ],
+                        [
+                            "SRR333791"
+                        ]
+                    ],
+                    "id": "0bc3"
+                },
+                {
+                    "caste": "gamergater",
+                    "tissue": "",
+                    "devel": "adult",
+                    "other": "",
+                    "layout": "paired",
+                    "accession": [
+                        [
+                            "SRR333792",
+                            "SRR333793",
+                            "SRR333794"
+                        ],
+                        [
+                            "SRR333795",
+                            "SRR333796"
+                        ]
+                    ],
+                    "id": "1391"
+                },
+                {
+                    "caste": "male",
+                    "tissue": "",
+                    "devel": "adult",
+                    "other": "",
+                    "layout": "paired",
+                    "accession": [
+                        [
+                            "SRR333797",
+                            "SRR333798",
+                            "SRR333799",
+                            "SRR333800",
+                            "SRR333801",
+                            "SRR333802",
+                            "SRR333803"
+                        ],
+                        [
+                            "SRR333804",
+                            "SRR333805"
+                        ]
+                    ],
+                    "id": "f606"
+                },
+                {
+                    "caste": "worker",
+                    "tissue": "",
+                    "devel": "adult",
+                    "other": "",
+                    "layout": "paired",
+                    "accession": [
+                        [
+                            "SRR333806",
+                            "SRR333807",
+                            "SRR333808",
+                            "SRR333809",
+                            "SRR333810",
+                            "SRR333811",
+                            "SRR333812"
+                        ],
+                        [
+                            "SRR333813",
+                            "SRR333814",
+                            "SRR333815"
+                        ]
+                    ],
+                    "id": "df18"
+                }
+            ],
+            "id": "a9d5"
+        }
+    ]
+}

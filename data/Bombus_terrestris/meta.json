@@ -1,0 +1,110 @@
+{
+    "organism":"Bombus terrestris",
+    "genome": {
+        "name": "Bter_1.0",
+        "accession": "GCF_000214255.1",
+        "ncbi": "https://www.ncbi.nlm.nih.gov/genome/2739?genome_assembly_id=34093",
+        "url": "ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/214/255/GCF_000214255.1_Bter_1.0/",
+        "basename": "GCF_000214255.1_Bter_1.0_genomic",
+        "fna": "GCF_000214255.1_Bter_1.0_genomic.fna.gz",
+        "gff": "GCF_000214255.1_Bter_1.0_genomic.gff.gz"
+    },
+    "experiments": [
+        {
+            "author": "Bebane",
+            "doi": "10.1098/rspb.2019.0718",
+            "samples": [
+                {
+                    "caste": "sterile",
+                    "tissue": "brain",
+                    "devel": "adult",
+                    "other": "control",
+                    "layout": "paired",
+                    "accession": [["SRR8946242"],["SRR8946241"],["SRR8946244"]],
+                    "id": "d45c"
+                },
+                {
+                    "caste": "sterile",
+                    "tissue": "brain",
+                    "devel": "adult",
+                    "other": "neonicotinoid",
+                    "layout": "paired",
+                    "accession": [["SRR8946243"],["SRR8946246"],["SRR8946245"]],
+                    "id": "7b33"
+                }
+            ],
+            "id": "0be8"
+        },
+        {
+            "author": "Marshall",
+            "doi": "10.1002/evl3.129",
+            "samples": [
+                {
+                    "caste": "reproductive",
+                    "tissue": "head",
+                    "devel": "adult",
+                    "other": "",
+                    "layout": "paired",
+                    "accession": [
+                        [
+                            "SRR8929844"
+                        ],
+                        [
+                            "SRR8929846"
+                        ],
+                        [
+                            "SRR8929850"
+                        ]
+                    ],
+                    "id": "ce60"
+                },
+                {
+                    "caste": "sterile",
+                    "tissue": "head",
+                    "devel": "adult",
+                    "other": "",
+                    "layout": "paired",
+                    "accession": [
+                        [
+                            "SRR8929845"
+                        ],
+                        [
+                            "SRR8929847"
+                        ],
+                        [
+                            "SRR8929851"
+                        ]
+                    ],
+                    "id": "228c"
+                }
+            ],
+            "id": "2bc8"
+        },
+        {
+            "author": "Lewis",
+            "doi": "10.1371/journal.pgen.1008864",
+            "samples": [
+                {
+                    "caste": "",
+                    "tissue": "thorax",
+                    "devel": "adult",
+                    "other": "",
+                    "layout": "paired",
+                    "accession": [
+                        [
+                            "SRR10447890"
+                        ],
+                        [
+                            "SRR10447890"
+                        ],
+                        [
+                            "SRR10447890"
+                        ]
+                    ],
+                    "id": "b341"
+                }
+            ],
+            "id": "480b"
+        }
+    ]
+}

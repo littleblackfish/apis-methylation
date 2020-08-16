@@ -1,0 +1,151 @@
+{
+    "organism": "Camponotus floridanus",
+    "genome": {
+        "name": "Cflo_v7.5",
+        "accession": "GCF_003227725.1",
+        "ncbi": "https://www.ncbi.nlm.nih.gov/genome/2966?genome_assembly_id=382180",
+        "url": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/003/227/725/GCF_003227725.1_Cflo_v7.5/",
+        "basename": "GCF_003227725.1_Cflo_v7.5_genomic"
+    },
+    "experiments": [
+        {
+            "author": "Bonasio",
+            "doi": "10.1016/j.cub.2012.07.042",
+            "samples": [
+                {
+                    "caste": "",
+                    "tissue": "",
+                    "devel": "embryo",
+                    "other": "",
+                    "layout": "paired",
+                    "accession": [
+                        [
+                            "SRR333733",
+                            "SRR333734"
+                        ],
+                        [
+                            "SRR333735",
+                            "SRR333736"
+                        ]
+                    ],
+                    "id": "3898"
+                },
+                {
+                    "caste": "major",
+                    "tissue": "",
+                    "devel": "adult",
+                    "other": "",
+                    "layout": "paired",
+                    "accession": [
+                        [
+                            "SRR333737",
+                            "SRR333738"
+                        ],
+                        [
+                            "SRR333739",
+                            "SRR333740"
+                        ]
+                    ],
+                    "id": "7714"
+                },
+                {
+                    "caste": "minor",
+                    "tissue": "",
+                    "devel": "adult",
+                    "other": "",
+                    "layout": "paired",
+                    "accession": [
+                        [
+                            "SRR333741",
+                            "SRR333742"
+                        ],
+                        [
+                            "SRR333743",
+                            "SRR333744"
+                        ]
+                    ],
+                    "id": "4227"
+                },
+                {
+                    "caste": "queen",
+                    "tissue": "",
+                    "devel": "adult",
+                    "other": "",
+                    "layout": "paired",
+                    "accession": [
+                        [
+                            "SRR333745",
+                            "SRR333746",
+                            "SRR333747"
+                        ],
+                        [
+                            "SRR333748",
+                            "SRR333749"
+                        ]
+                    ],
+                    "id": "6dc4"
+                },
+                {
+                    "caste": "queen",
+                    "tissue": "",
+                    "devel": "adult",
+                    "other": "virgin",
+                    "layout": "paired",
+                    "accession": [
+                        [
+                            "SRR333750",
+                            "SRR333751",
+                            "SRR333752"
+                        ],
+                        [
+                            "SRR333753"
+                        ]
+                    ],
+                    "id": "440e"
+                },
+                {
+                    "caste": "",
+                    "tissue": "",
+                    "devel": "larva",
+                    "other": "",
+                    "layout": "paired",
+                    "accession": [
+                        [
+                            "SRR333755",
+                            "SRR333756",
+                            "SRR333757",
+                            "SRR333758",
+                            "SRR333759"
+                        ],
+                        [
+                            "SRR333760",
+                            "SRR333761"
+                        ]
+                    ],
+                    "id": "7061"
+                },
+                {
+                    "caste": "male",
+                    "tissue": "",
+                    "devel": "adult",
+                    "other": "",
+                    "layout": "paired",
+                    "accession": [
+                        [
+                            "SRR333762",
+                            "SRR333763",
+                            "SRR333764",
+                            "SRR333765"
+                        ],
+                        [
+                            "SRR333766",
+                            "SRR333767"
+                        ]
+                    ],
+                    "id": "b791"
+                }
+            ],
+            "id": "fd1c"
+        }
+    ]
+}

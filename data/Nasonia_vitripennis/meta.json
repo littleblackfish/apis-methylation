@@ -1,0 +1,467 @@
+{
+    "organism":"Nasonia vitripennis",
+    "genome": {
+        "name": "Nvit_psr_1.1",
+        "accession": "GCF_009193385.2",
+        "ncbi": "https://www.ncbi.nlm.nih.gov/genome/449?genome_assembly_id=808404",
+        "url": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/009/193/385/GCF_009193385.2_Nvit_psr_1.1/",
+        "basename": "GCF_009193385.2_Nvit_psr_1.1_genomic",
+        "fna": "GCF_009193385.2_Nvit_psr_1.1_genomic.fna.gz",
+        "gff": "GCF_009193385.2_Nvit_psr_1.1_genomic.gff.gz"
+    },
+    "experiments": [
+        {
+            "author": "Wang",
+            "doi": "10.1371/journal.pgen.1003872",
+            "samples": [
+                {
+                    "caste": "female",
+                    "tissue": "whole",
+                    "devel": "adult",
+                    "other": "",
+                    "layout": "single",
+                    "accession": [
+                        [
+                            "SRR647667"
+                        ]
+                    ],
+                    "id": "1df2"
+                },
+                {
+                    "caste": "female",
+                    "tissue": "whole",
+                    "devel": "adult",
+                    "other": "",
+                    "layout": "paired",
+                    "accession": [
+                        [
+                            "SRR647668"
+                        ]
+                    ],
+                    "id": "7e5b"
+                }
+            ],
+            "id": "d11c"
+        },
+        {
+            "author": "Wang",
+            "doi": "10.1073/pnas.1510338112",
+            "samples": [
+                {
+                    "caste": "male",
+                    "tissue": "whole",
+                    "devel": "adult",
+                    "other": "",
+                    "layout": "single",
+                    "accession": [
+                        [
+                            "SRR1566037"
+                        ]
+                    ],
+                    "id": "183c"
+                },
+                {
+                    "caste": "male",
+                    "tissue": "whole",
+                    "devel": "adult",
+                    "other": "",
+                    "layout": "paired",
+                    "accession": [
+                        [
+                            "SRR1566038"
+                        ]
+                    ],
+                    "id": "d646"
+                }
+            ],
+            "id": "5dbb"
+        },
+        {
+            "author": "Cook",
+            "doi": "10.1101/437202",
+            "samples": [
+                {
+                    "caste": "female",
+                    "tissue": "thorax/abdomen",
+                    "devel": "adult",
+                    "other": "24h_sucrose_0h_harvest",
+                    "layout": "paired",
+                    "accession": [
+                        [
+                            "SRR8467324",
+                            "SRR8467325"
+                        ],
+                        [
+                            "SRR8467326",
+                            "SRR8467327"
+                        ],
+                        [
+                            "SRR8467328",
+                            "SRR8467329"
+                        ]
+                    ],
+                    "id": "1b78"
+                },
+                {
+                    "caste": "female",
+                    "tissue": "head",
+                    "devel": "adult",
+                    "other": "24h_sucrose_0h_harvest",
+                    "layout": "paired",
+                    "accession": [
+                        [
+                            "SRR8467330",
+                            "SRR8467331"
+                        ],
+                        [
+                            "SRR8467332",
+                            "SRR8467333"
+                        ],
+                        [
+                            "SRR8467334",
+                            "SRR8467335"
+                        ]
+                    ],
+                    "id": "31cd"
+                },
+                {
+                    "caste": "female",
+                    "tissue": "thorax/abdomen",
+                    "devel": "adult",
+                    "other": "24h_sucrose_24h_harvest",
+                    "layout": "paired",
+                    "accession": [
+                        [
+                            "SRR8467336",
+                            "SRR8467337"
+                        ],
+                        [
+                            "SRR8467338",
+                            "SRR8467339"
+                        ],
+                        [
+                            "SRR8467340",
+                            "SRR8467341"
+                        ]
+                    ],
+                    "id": "3e61"
+                },
+                {
+                    "caste": "female",
+                    "tissue": "head",
+                    "devel": "adult",
+                    "other": "24h_sucrose_24h_harvest",
+                    "layout": "paired",
+                    "accession": [
+                        [
+                            "SRR8467342",
+                            "SRR8467343"
+                        ],
+                        [
+                            "SRR8467344",
+                            "SRR8467345"
+                        ],
+                        [
+                            "SRR8467346",
+                            "SRR8467347"
+                        ]
+                    ],
+                    "id": "c061"
+                },
+                {
+                    "caste": "female",
+                    "tissue": "thorax/abdomen",
+                    "devel": "adult",
+                    "other": "24h_sucrose_48h_harvest",
+                    "layout": "paired",
+                    "accession": [
+                        [
+                            "SRR8467348",
+                            "SRR8467349"
+                        ],
+                        [
+                            "SRR8467350",
+                            "SRR8467351"
+                        ],
+                        [
+                            "SRR8467352",
+                            "SRR8467353"
+                        ]
+                    ],
+                    "id": "4300"
+                },
+                {
+                    "caste": "female",
+                    "tissue": "head",
+                    "devel": "adult",
+                    "other": "24h_sucrose_48h_harvest",
+                    "layout": "paired",
+                    "accession": [
+                        [
+                            "SRR8467354",
+                            "SRR8467355"
+                        ],
+                        [
+                            "SRR8467356",
+                            "SRR8467357"
+                        ],
+                        [
+                            "SRR8467358",
+                            "SRR8467359"
+                        ]
+                    ],
+                    "id": "6e07"
+                },
+                {
+                    "caste": "female",
+                    "tissue": "thorax/abdomen",
+                    "devel": "adult",
+                    "other": "24h_5'aza-dC_0h_harvest",
+                    "layout": "paired",
+                    "accession": [
+                        [
+                            "SRR8467360",
+                            "SRR8467361"
+                        ],
+                        [
+                            "SRR8467362",
+                            "SRR8467363"
+                        ],
+                        [
+                            "SRR8467364",
+                            "SRR8467365"
+                        ]
+                    ],
+                    "id": "db56"
+                },
+                {
+                    "caste": "female",
+                    "tissue": "head",
+                    "devel": "adult",
+                    "other": "24h_5'aza-dC_0h_harvest",
+                    "layout": "paired",
+                    "accession": [
+                        [
+                            "SRR8467366",
+                            "SRR8467367",
+                            "SRR8467368"
+                        ],
+                        [
+                            "SRR8467369",
+                            "SRR8467370"
+                        ],
+                        [
+                            "SRR8467371",
+                            "SRR8467372"
+                        ]
+                    ],
+                    "id": "6d43"
+                },
+                {
+                    "caste": "female",
+                    "tissue": "thorax/abdomen",
+                    "devel": "adult",
+                    "other": "24h_5'aza-dC_24h_harvest",
+                    "layout": "paired",
+                    "accession": [
+                        [
+                            "SRR8467373",
+                            "SRR8467374"
+                        ],
+                        [
+                            "SRR8467375",
+                            "SRR8467376"
+                        ],
+                        [
+                            "SRR8467377",
+                            "SRR8467378"
+                        ]
+                    ],
+                    "id": "924f"
+                },
+                {
+                    "caste": "female",
+                    "tissue": "head",
+                    "devel": "adult",
+                    "other": "24h_5'aza-dC_24h_harvest",
+                    "layout": "paired",
+                    "accession": [
+                        [
+                            "SRR8467379",
+                            "SRR8467380"
+                        ],
+                        [
+                            "SRR8467381",
+                            "SRR8467382"
+                        ]
+                    ],
+                    "id": "55a7"
+                },
+                {
+                    "caste": "female",
+                    "tissue": "thorax/abdomen",
+                    "devel": "adult",
+                    "other": "24h_5'aza-dC_48h_harvest",
+                    "layout": "paired",
+                    "accession": [
+                        [
+                            "SRR8467383",
+                            "SRR8467384"
+                        ],
+                        [
+                            "SRR8467385",
+                            "SRR8467386"
+                        ],
+                        [
+                            "SRR8467387"
+                        ]
+                    ],
+                    "id": "cf56"
+                },
+                {
+                    "caste": "female",
+                    "tissue": "head",
+                    "devel": "adult",
+                    "other": "24h_5'aza-dC_48h_harvest",
+                    "layout": "paired",
+                    "accession": [
+                        [
+                            "SRR8467388"
+                        ],
+                        [
+                            "SRR8467389"
+                        ]
+                    ],
+                    "id": "c117"
+                },
+                {
+                    "caste": "female",
+                    "tissue": "thorax/abdomen",
+                    "devel": "adult",
+                    "other": "48h_5'aza-dC_0h_harvest",
+                    "layout": "paired",
+                    "accession": [
+                        [
+                            "SRR8467390"
+                        ],
+                        [
+                            "SRR8467391"
+                        ],
+                        [
+                            "SRR8467392"
+                        ]
+                    ],
+                    "id": "2f1b"
+                },
+                {
+                    "caste": "female",
+                    "tissue": "head",
+                    "devel": "adult",
+                    "other": "48h_5'aza-dC_0h_harvest",
+                    "layout": "paired",
+                    "accession": [
+                        [
+                            "SRR8467393",
+                            "SRR8467394"
+                        ],
+                        [
+                            "SRR8467395",
+                            "SRR8467396"
+                        ]
+                    ],
+                    "id": "53a1"
+                },
+                {
+                    "caste": "female",
+                    "tissue": "thorax/abdomen",
+                    "devel": "adult",
+                    "other": "48h_5'aza-dC_24h_harvest",
+                    "layout": "paired",
+                    "accession": [
+                        [
+                            "SRR8467397",
+                            "SRR8467398"
+                        ],
+                        [
+                            "SRR8467399",
+                            "SRR8467400",
+                            "SRR8467401"
+                        ],
+                        [
+                            "SRR8467402",
+                            "SRR8467403"
+                        ]
+                    ],
+                    "id": "3377"
+                },
+                {
+                    "caste": "female",
+                    "tissue": "head",
+                    "devel": "adult",
+                    "other": "48h_5'aza-dC_24h_harvest",
+                    "layout": "paired",
+                    "accession": [
+                        [
+                            "SRR8467404",
+                            "SRR8467405"
+                        ],
+                        [
+                            "SRR8467406",
+                            "SRR8467407"
+                        ],
+                        [
+                            "SRR8467408",
+                            "SRR8467409"
+                        ]
+                    ],
+                    "id": "1a44"
+                },
+                {
+                    "caste": "female",
+                    "tissue": "thorax/abdomen",
+                    "devel": "adult",
+                    "other": "48h_5'aza-dC_48h_harvest",
+                    "layout": "paired",
+                    "accession": [
+                        [
+                            "SRR8467410",
+                            "SRR8467411"
+                        ],
+                        [
+                            "SRR8467412",
+                            "SRR8467413"
+                        ],
+                        [
+                            "SRR8467414",
+                            "SRR8467415"
+                        ]
+                    ],
+                    "id": "1f79"
+                },
+                {
+                    "caste": "female",
+                    "tissue": "head",
+                    "devel": "adult",
+                    "other": "48h_5'aza-dC_48h_harvest",
+                    "layout": "paired",
+                    "accession": [
+                        [
+                            "SRR8467416",
+                            "SRR8467417"
+                        ],
+                        [
+                            "SRR8467418",
+                            "SRR8467419"
+                        ],
+                        [
+                            "SRR8467420",
+                            "SRR8467421"
+                        ]
+                    ],
+                    "id": "5aaf"
+                }
+            ],
+            "id": "4c6a"
+        }
+    ]
+}

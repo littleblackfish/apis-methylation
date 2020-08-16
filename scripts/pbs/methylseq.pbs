@@ -1,0 +1,48 @@
+
+#!/bin/bash
+#!/bin/bash
+
+#####  Constructed by PBS Script Generator #####
+
+#PBS -l nodes=1:ppn=8,walltime=1:00:00:00
+#PBS -l vmem=96gb
+#PBS -j oe
+#PBS -N methylseq-single
+
+######  Module commands #####
+
+module load singularity/3.5.2
+
+######  Job commands go below this line #####
+
+export HOME=$(realpath ~)
+
+cd $PBS_O_WORKDIR
+
+LAYOUT=$(python -c "import json; print(json.load(open('../sample.json'))['layout']);")
+
+echo $LAYOUT
+
+GENOME=$1
+
+#	--bwa_meth_index $GENOME \
+#	--fasta_index $GENOME.fai \
+PARAMS="--aligner bwameth -r 1.5 \
+	--fasta $GENOME \
+	--max_memory 96.GB \
+	--max_cpus $PBS_NUM_PPN \
+	--comprehensive \
+	--monochrome_logs "
+
+if [ $LAYOUT == "single" ] 
+then
+nextflow run nf-core/methylseq \
+	--single_end \
+	--reads 'SRR*.fastq.gz' \
+	$PARAMS
+else
+nextflow run nf-core/methylseq \
+	--reads 'SRR*_{1,2}.fastq.gz' \
+	$PARAMS
+fi
+

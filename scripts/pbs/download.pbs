@@ -1,0 +1,19 @@
+#!/bin/bash
+
+#PBS -l nodes=1:ppn=4,walltime=00:4:00:00
+#PBS -l vmem=16gb
+#PBS -j oe
+#PBS -N fasterq-dump
+
+source activate sra-tools
+
+dir="/N/dc2/scratch/muroztur/fastq/ants"
+
+mkdir -p $dir
+cd $dir
+
+while read r
+do
+   [ -f ${r}.fastq ] || [ -f ${r}_1.fastq ] ||  fasterq-dump $r -e 4 -m 8GB -x
+done < ~/SRR_Acc_List.txt
+
